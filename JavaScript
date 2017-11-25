@@ -1,0 +1,6 @@
+=== takes type of variable in consideration, while == make type correction based upon values of variables: 
+Example:
+0==false   // true, because false is equivalent of 0
+0===false  // false, because both operands are of different type
+2=="2"     // true, auto type coercion, string converted into number
+2==="2"    // false, since both operands are not of same type
