@@ -4,3 +4,5 @@ Example:
 0===false  // false, because both operands are of different type
 2=="2"     // true, auto type coercion, string converted into number
 2==="2"    // false, since both operands are not of same type
+
+Functions on Arrays: splice, push, pop, delete, shift,  
